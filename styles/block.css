@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .block__left {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 3;
+    }
+
+    .block__right {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        width: 15%;
+    }
+
+    .block__top {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .block__bottom {
+        display: flex;
+    }

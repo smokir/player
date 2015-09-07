@@ -1,0 +1,54 @@
+.player {
+    
+}
+
+    .player__block {
+        
+    }
+
+        .player__block_scroll {
+            overflow: auto;
+        }
+        
+        .player__block_bordered {
+            border: 1px solid #e0e0e0;
+        }
+
+    /********/
+
+    .player__drop {
+        position: relative;
+    }
+    
+        .player__drop_overlay:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            content: "";
+            pointer-events: none;
+            border: 2px dashed #ddd;
+            background: rgba(0,0,0,0.4);
+        }
+
+    /********/
+
+    .player__btn {
+        opacity: .7;
+    }
+
+        .player__btn:hover {
+            opacity: 1;
+        }
+        
+    /********/
+    
+    .player__auto-margin {
+        margin: auto;
+    }
+    
+    .player__super-align {
+        vertical-align: super;
+    }
